@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Screens</string>
+    <string name="app_name">A Story App</string>
     <string name="main_herodesc">A landscape with a grassy hill and the ocean. The sun has set and there is fog over the water.</string>
     <string name="main_welcometext">Welcome!</string>
     <string name="main_headingtext">Write three words</string>
