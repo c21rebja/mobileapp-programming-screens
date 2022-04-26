@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Screens</string>
+    <string name="main_herodesc">A landscape with a grassy hill and the ocean. The sun has set and there is fog over the water.</string>
+    <string name="main_welcometext">Welcome!</string>
+    <string name="main_headingtext">Write three words</string>
+    <string name="main_word1hint">Word 1</string>
+    <string name="main_word2hint">Word 2</string>
+    <string name="main_word3hint">Word 3</string>
+    <string name="main_sumbitbtn">Submit</string>
 </resources>

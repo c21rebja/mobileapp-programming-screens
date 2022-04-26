@@ -11,17 +11,16 @@
         android:layout_width="wrap_content"
         android:layout_height="275dp"
         app:layout_constraintTop_toTopOf="parent"
-        android:paddingHorizontal="25dp"
-        android:layout_marginTop="10dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        android:contentDescription="@string/main_herodesc"
         tools:srcCompat="@tools:sample/backgrounds/scenic" />
 
     <TextView
         android:id="@+id/main_welcometext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome!"
+        android:text="@string/main_welcometext"
         android:textSize="30sp"
         android:textColor="#FFF"
         app:layout_constraintBottom_toBottomOf="@id/heroImg"
@@ -33,7 +32,8 @@
         android:id="@+id/main_headingtext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Write three words"
+        android:layout_marginTop="25dp"
+        android:text="@string/main_headingtext"
         android:textSize="20sp"
         android:textColor="#000"
         app:layout_constraintTop_toBottomOf="@id/heroImg"
@@ -47,7 +47,9 @@
         app:layout_constraintTop_toBottomOf="@id/main_headingtext"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:hint="Word 1"
+        android:hint="@string/main_word1hint"
+        android:inputType="text"
+        android:autofillHints="none"
         android:layout_margin="10dp"/>
 
     <EditText
@@ -57,7 +59,9 @@
         app:layout_constraintTop_toBottomOf="@id/main_word1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:hint="Word 2"
+        android:hint="@string/main_word2hint"
+        android:inputType="text"
+        android:autofillHints="none"
         android:layout_margin="10dp"/>
 
     <EditText
@@ -67,7 +71,9 @@
         app:layout_constraintTop_toBottomOf="@id/main_word2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:hint="Word 3"
+        android:hint="@string/main_word3hint"
+        android:inputType="text"
+        android:autofillHints="none"
         android:layout_margin="10dp"/>
 
     <Button
@@ -77,7 +83,7 @@
         app:layout_constraintTop_toBottomOf="@id/main_word3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:text="Submit"
+        android:text="@string/main_sumbitbtn"
         android:layout_margin="15dp"
         android:background="@color/colorAccent" />
 
