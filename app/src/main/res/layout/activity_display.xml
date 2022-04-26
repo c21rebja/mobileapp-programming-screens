@@ -6,4 +6,67 @@
     android:layout_height="match_parent"
     tools:context=".DisplayActivity">
 
+    <TextView
+        android:id="@+id/disp_story1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is the start of the story"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="100dp"/>
+
+    <TextView
+        android:id="@+id/displaybox_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ANIMAL"
+        app:layout_constraintTop_toBottomOf="@id/disp_story1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/disp_story2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The story continues"
+        app:layout_constraintTop_toBottomOf="@id/displaybox_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/displaybox_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COLOR"
+        app:layout_constraintTop_toBottomOf="@id/disp_story2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/disp_story3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="It continues once more"
+        app:layout_constraintTop_toBottomOf="@id/displaybox_2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/displaybox_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FLAVOR"
+        app:layout_constraintTop_toBottomOf="@id/disp_story3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/disp_story4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The story ends"
+        app:layout_constraintTop_toBottomOf="@id/displaybox_3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
