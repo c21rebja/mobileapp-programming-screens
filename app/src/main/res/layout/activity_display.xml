@@ -4,23 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DisplayActivity">
+    tools:context=".DisplayActivity"
+    android:layout_marginHorizontal="50dp">
 
     <TextView
         android:id="@+id/disp_story1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="This is the start of the story"
+        android:text="@string/story1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="100dp"/>
+        android:layout_marginTop="100dp"
+        android:textAlignment="center" />
 
     <TextView
         android:id="@+id/displaybox_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ANIMAL"
+        android:text=""
         app:layout_constraintTop_toBottomOf="@id/disp_story1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -29,16 +31,17 @@
         android:id="@+id/disp_story2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="The story continues"
+        android:text="@string/story2"
         app:layout_constraintTop_toBottomOf="@id/displaybox_1"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textAlignment="center" />
 
     <TextView
         android:id="@+id/displaybox_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="COLOR"
+        android:text=""
         app:layout_constraintTop_toBottomOf="@id/disp_story2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -47,16 +50,17 @@
         android:id="@+id/disp_story3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="It continues once more"
+        android:text="@string/story3"
         app:layout_constraintTop_toBottomOf="@id/displaybox_2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textAlignment="center" />
 
     <TextView
         android:id="@+id/displaybox_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="FLAVOR"
+        android:text=""
         app:layout_constraintTop_toBottomOf="@id/disp_story3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -65,8 +69,9 @@
         android:id="@+id/disp_story4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="The story ends"
+        android:text="@string/story4"
         app:layout_constraintTop_toBottomOf="@id/displaybox_3"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textAlignment="center" />
 </androidx.constraintlayout.widget.ConstraintLayout>
